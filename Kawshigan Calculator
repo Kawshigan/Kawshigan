@@ -1,0 +1,39 @@
+
+print("Kawshigan Calculator")
+print("TYPE 1 FOR ADD")
+print("TYPE 2 FOR SUBTRACT")
+print("TYPE 3 FOR MULTIPLY")
+print("TYPE 4 FOT DIVIDE")
+
+ch=int(input("Enter Choice(1-4): "))
+
+if ch==1:
+    a=int(input("Enter A:"))
+    b=int(input("Enter B:"))
+    c=a+b
+    print("Sum = ",c)
+elif ch==2:
+    a=int(input("Enter A:"))
+    b=int(input("Enter B:"))
+    c=a-b
+    print("Difference = ",c)
+elif  ch==3:
+    a=int(input("Enter A:"))
+    b=int(input("Enter B:"))
+    c=a*b
+    print("Product = ",c)
+elif ch==4:
+    a=int(input("Enter A:"))
+    b=int(input("Enter B:"))
+    c=a/b
+    print("Quotient = ",c)
+else:
+    print("Invalid Choice")
+print("Second Program")
+for i in range(1,21,2):
+    print("The values using for loop",i)
+x=1
+while x<=20:
+    x+=2
+    print("The values using While loop",x)
+#End of the program
